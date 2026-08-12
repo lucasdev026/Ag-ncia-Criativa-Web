@@ -1,0 +1,345 @@
+h1{
+   color: rgb(63, 34, 1);
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(113, 113, 113);
+    height: 32px;
+    width: 50%;
+    margin: auto;
+    text-shadow: 1.7px 2px 1.5px #5a5a5a;
+    font-style: unset;
+    margin-top: 50px;
+    align-self: flex-start;
+
+}
+p{
+    color: black;
+}
+header{
+    background-color: #979797;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+    margin-top: -5px;
+    margin-bottom:100px ;
+    box-shadow: 10px 10px 5px rgb(113, 113, 113);
+
+    
+}
+h3{
+    text-align: center;
+    font-style: oblique;
+    color: white;
+
+}
+
+form{
+    align-items: center;
+    background-color: rgb(121, 114, 107);
+    display: flex;
+    padding-top: px;
+    margin-bottom: 10px;
+    flex-direction: column;
+    font: center;
+    width: 750px;
+    padding: 35px;
+    gap: 15px;
+    text-shadow: 1.7px 2px 1.5px #5a5a5a;
+    box-shadow: 10px 10px 5px rgb(113, 113, 113);
+    margin: auto;
+    margin-top: -80px;
+}
+nav{
+    padding: 70px;
+}
+label{
+    align-items: center;
+    color: rgb(254, 255, 255);
+    padding: 10px;
+    flex-direction: column;
+    
+}
+input{
+    border-radius: 10px;
+    align-items: center;
+    width: 203px;
+    max-width: 250px;
+    box-sizing: border-box;
+}
+select{
+    border-radius: 12px;
+    border-color: rgb(151, 151, 147);
+    padding: 4px;
+    background-color: #c1fdff;
+
+}
+
+main{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(113, 113, 113); 
+    text-shadow: 2px 2px 4px #5a5a5a;
+    font-size: 1.2em;
+    margin: auto;
+    font-size: 1em; 
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    
+   
+    
+}
+
+button{
+    color: rgb(207, 255, 239);
+    background-color: #5a5a5a;
+    border-radius: 10px;
+    width: 80%;
+    
+
+}
+  
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+}
+body{
+    color: rgb(36, 36, 36);
+    background-color: rgb(255, 251, 245);
+    margin-top: 1.2%;
+    font-size: 1.2rem;
+   
+}
+p{
+    opacity: 0;
+}
+footer{
+    background-color: #d6d2d2;
+    display: flexbox;
+    display: grid;
+    justify-content: center;
+    border-radius: 30px;
+    padding-bottom: 50px;
+    margin-top: 70px;
+    gap: auto;
+    box-shadow: 10px 10px 5px rgb(113, 113, 113);
+
+}
+article{
+    background-color: #cdcdcd;
+    border-radius: 30px;
+    justify-content: center;
+    display: grid;
+    margin-top: 50px;
+    padding-bottom: 60px;
+    gap: 40px;
+    box-shadow: 10px 10px 5px rgb(113, 113, 113);
+ 
+
+
+}
+h2{
+    padding-left: 225px;
+}
+aside{
+    margin-top: -30px;
+    padding-top: 20px;
+    background-color: white;
+    border-radius: 14px;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-shadow: 10px 10px 5px rgb(113, 113, 113);
+
+}
+
+
+
+/* styles.css */
+@media (max-width : 768px) {
+    border {
+        background-color: lightgray;
+    }
+}
+.mobile-message{
+    display: block;
+}
+/* Media queries (breakpoint mantidos em px melhor versão básica)
+/* dispositivos pequenos ou mobile-first (celulares, até 600px) */
+
+@media (max-width: 600px){
+    body{
+        background-color: rgb(235, 175, 120);
+    }
+    h1{
+        font-size: 1rem;
+        padding: 10px;
+        width: 20%;
+       gap: 15px;
+       
+        
+    }
+    main{
+        width: 50%;
+        padding: 0.6rem;
+        height: 100%;
+       height: 350px;
+
+    }
+    .mobile-message{
+        display: block;
+        background-color: rgb(235, 175, 120);
+        font-style: italic;
+    }
+    img{
+        width: 30%;
+        width: 60px;
+        box-shadow: 10px 10px 5px rgb(113, 113, 113);
+        border-radius: 10px;
+        height: auto;
+        padding: 20px;
+        display: flex;
+        
+       
+    }
+    nav{
+        gap: 10px;
+        padding: 2px;
+        margin-bottom: 10px;
+        
+    }
+    form{
+        padding: 1vh;
+        width: 350px;
+        padding: 10px;
+        
+    }
+    input{
+        width: 80px;
+    }
+    label{
+        font-size: 17px;
+    }
+    button{
+        width: 50px;
+        width: 90%;
+    }
+
+
+
+}
+
+/*dispositivos médios(601px até 900px) */
+
+@media (min-width: 601px ) and (max-width: 900px ){
+    body{
+        background-color: rgb(235, 175, 120);
+    }
+    h1{
+        
+        font-size: 1.3rem;
+        padding: 15px;
+        width: 28%;
+
+
+    }
+    main{
+        width: 80%;
+        padding: 2rem;
+        padding-top: 8px;
+        height: 500px;
+        margin-bottom: 70px;
+    }
+    .mobile-message{
+        display: block;
+        color: rgb(255, 163, 57);
+        font-style: italic;
+    }
+    img{
+        width: 15%;
+        width: 80px;
+        box-shadow: 10px 10px 5px rgb(113, 113, 113);
+        border-radius: 10px;
+        height: auto;
+        padding: 20px;
+        display: flex;
+        display: inline-block
+    }
+    form{
+        width: 500px;
+    };
+    input{
+        width: 120px;
+    }
+    label{
+        font-size: 20px;
+    }
+    button{
+        width: 90%;
+
+    }
+    .produto {
+         object-fit: contain;
+    
+    }
+  
+}
+/* dispositivos com telas maiores ou monitores px em faixa (901+)*/
+
+@media (min-width: 901px){
+    body{
+       background-color: rgb(255, 253, 252);
+    }
+    h1{
+        
+        font-size: 1.8rem;
+        padding: 16px;
+        width: 29%;
+    }
+    main{
+        width: 65%;
+        padding: 2.4rem;
+        max-width: 900px;
+    }
+    .mobile-message{
+        display: block;
+        background-color: rgb(235, 175, 120);
+        font-style: italic;
+    }
+    img{
+        width: 10%;
+        box-shadow: 10px 10px 5px rgb(113, 113, 113);
+        border-radius: 10px;
+        height: auto;
+        padding: 20px;
+        display: flex;
+        display: inline-block
+    }
+    form{
+        width: 650px;
+    }
+    input{
+        width: 165px;
+    }
+    label{
+        font-size: 23px;
+    }
+   button{
+    width: 100%;
+   }
+    .produto {
+         object-fit: contain;
+    }
+
+}
+    
+
+
+

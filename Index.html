@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agência Criativa Web- EBAC</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+        <h1>Agência Criativa Web</h1>
+        <img src="unnamed.jpg" alt="foto da EBAC">
+        </div>
+    </header>
+    <p class="mobile-message"></p>
+        <nav>
+        <form action="meuFormulario" method="get">
+           <div>
+            
+            <label for="email">email:</label>
+            <input type="email" id="email" name="email" required>
+           </div>
+           <div>
+            <label for="senha">senha:</label>
+            <input type="password" id="senha" name="senha" required>
+            </div>
+            <div>
+                <button id="Enviar">Enviar</button>
+            </div>
+           <div>
+            <label for="assunto">assunto:</label>
+                <select id="assunto" name="assunto">
+                <option value="Compras">Compras</option>
+                <option value="Pedidos">Pedidos</option>
+    
+            </select>
+   
+            </nav>
+           </div>
+        <script src="script.js"></script>
+        </form>
+
+
+    <main>
+    <h3>A moda começa na EBAC!</h3>
+
+    <div class="galeria-horizontal">
+
+        <div class="produto">
+            <img src="imagem de calça jeans.webp" alt="Foto de calça jeans">
+            <h3>R$ 80,00</h3>
+            <button id="comprar" alt="botão de comprar">Comprar</button>
+        </div>
+
+        <div class="produto">
+            <img src="camisa jeans.jpeg" alt="Foto de camisa jeans">
+            <h3>R$ 100,00</h3>
+            <button id="comprar" alt="botão de comprar">Comprar</button>
+        </div>
+        <div class="produto">
+            <img src="chapeu. jeans.index.webp" alt="Foto do chapéu">
+            <h3>R$ 40,00</h3>
+            <button id="comprar" alt="botão de comprar">Comprar</button>
+            
+
+    </div>
+</main>
+
+
+<style>
+    .galeria-horizontal {
+        display: flex;
+        gap: 150px;
+        overflow-x: auto;
+        object-fit: contain;
+
+    }
+
+    .produto {
+        text-align: center;
+         object-fit: contain;
+    
+    }
+
+    .produto img {
+        width: 200px;
+        height: 300px;
+        object-fit: cover;
+        display: block;
+        object-fit: contain;
+
+    }
+
+
+   header img{
+    margin-top: -114px;
+    background-color: rgb(214, 219, 216);
+     
+   }
+   
+   
+  
+
+</style>
+ <article>
+
+   <div class="comment-container"></div>
+    <h2>Comentarios👌</h2>
+        <aside>
+    <h4>LMK.026</h4>
+    <h5>-Sensacional o contéudo da Ebac, além de ser loja, oferece serviços digitalmente gostei demais!</h5>
+        </aside>
+</article>
+
+
+    <footer>
+       
+        <div>
+       
+        <p>© 2026 - política e diretrizes</p>
+        <li><a href="#privacidade">Política de Privacidade</a></li>
+        <li><a href="#contato">WhatsApp / Telefone: +55 (11) 4200-2991</a></li>
+        <li><a href="http://127.0.0.1:5500/Index.html">EBAC-Online</a></li>
+        <li><a href="E-mail de suporte">suporte@ebaconline.com.br</a></li>
+        
+        </div>
+    </footer>
+</body>
+</html>
