@@ -7,6 +7,7 @@ document.querySelector('button').addEventListener('click', function(e){
 
 })
 
+
 // 2. Adiciona um ouvinte para o evento de envio 
 formulario.addEventListener('submit', function(event) {
 //Evita o comportamento padrão de recarregar a página

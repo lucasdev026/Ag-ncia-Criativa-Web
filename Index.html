@@ -1,132 +1,95 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Agência Criativa Web- EBAC</title>
-    <link rel="stylesheet" href="styles.css">
-    
-    
-</head>
-<body>
-    <header>
-        <div class="container">
-        <h1>Agência Criativa Web</h1>
-        <img src="unnamed.jpg" alt="foto da EBAC">
-        </div>
-    </header>
-    <p class="mobile-message"></p>
-        <nav>
-        <form action="meuFormulario" method="get">
-           <div>
-            
-            <label for="email">email:</label>
-            <input type="email" id="email" name="email" required>
-           </div>
-           <div>
-            <label for="senha">senha:</label>
-            <input type="password" id="senha" name="senha" required>
-            </div>
-            <div>
-                <button id="Enviar">Enviar</button>
-            </div>
-           <div>
-            <label for="assunto">assunto:</label>
-                <select id="assunto" name="assunto">
-                <option value="Compras">Compras</option>
-                <option value="Pedidos">Pedidos</option>
-    
-            </select>
-   
-            </nav>
-           </div>
-        <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="conteudo-principal">
+      <header class="topo-cor">
+        <h1 class="Descricao">Agência Criativa Web</h1>
+
+        <img class="img-1" src="unnamed.jpg" alt="logo" />
+
+        <h3 class="Descricao-1">Bem vindo</h3>
+
+        <form>
+          <div class="input-1">
+            <label class="pesquisa_1" for="pesquisa">🔎</label>
+            <input
+              class="input-1"
+              type="number and text"
+              id="pesquisa"
+              name="pesquisa"
+              placeholder="pesquisa"
+            />
+          </div>
         </form>
 
-
-    <main>
-    <h3>A moda começa na EBAC!</h3>
-
-    <div class="galeria-horizontal">
-
-        <div class="produto">
-            <img src="imagem de calça jeans.webp" alt="Foto de calça jeans">
-            <h3>R$ 80,00</h3>
-            <button id="comprar" alt="botão de comprar">Comprar</button>
-        </div>
-
-        <div class="produto">
-            <img src="camisa jeans.jpeg" alt="Foto de camisa jeans">
-            <h3>R$ 100,00</h3>
-            <button id="comprar" alt="botão de comprar">Comprar</button>
-        </div>
-        <div class="produto">
-            <img src="chapeu. jeans.index.webp" alt="Foto do chapéu">
-            <h3>R$ 40,00</h3>
-            <button id="comprar" alt="botão de comprar">Comprar</button>
-            
-
+        <button class="button-enviar1">Enviar</button>
+      </header>
     </div>
-</main>
+    <form>
+      <hr class="linha" />
+      <article class="background__1">
+        <div class="caixa-formulario">
+          <article class="h2-1">
+            <h2 class="lindex">EBAC</h2>
+          </article>
 
-
-<style>
-    .galeria-horizontal {
-        display: flex;
-        gap: 150px;
-        overflow-x: auto;
-        object-fit: contain;
-
-    }
-
-    .produto {
-        text-align: center;
-         object-fit: contain;
-    
-    }
-
-    .produto img {
-        width: 200px;
-        height: 300px;
-        object-fit: cover;
-        display: block;
-        object-fit: contain;
-
-    }
-
-
-   header img{
-    margin-top: -114px;
-    background-color: rgb(214, 219, 216);
-     
-   }
-   
-   
-  
-
-</style>
- <article>
-
-   <div class="comment-container"></div>
-    <h2>Comentarios👌</h2>
-        <aside>
-    <h4>LMK.026</h4>
-    <h5>-Sensacional o contéudo da Ebac, além de ser loja, oferece serviços digitalmente gostei demais!</h5>
-        </aside>
-</article>
-
-
-    <footer>
-       
-        <div>
-       
-        <p>© 2026 - política e diretrizes</p>
-        <li><a href="#privacidade">Política de Privacidade</a></li>
-        <li><a href="#contato">WhatsApp / Telefone: +55 (11) 4200-2991</a></li>
-        <li><a href="http://127.0.0.1:5500/Index.html">EBAC-Online</a></li>
-        <li><a href="E-mail de suporte">suporte@ebaconline.com.br</a></li>
-        
+          <label class="label-1" for="Email">Email:</label>
+          <input
+            class="input-2"
+            type="number, text and Email"
+            id="Email"
+            name="Email"
+            placeholder="Email"
+          />
+          <label class="label-2" for="password" Senha>Senha:</label>
+          <input
+            class="input-3"
+            type="number and text"
+            id="Senha"
+            name="Senha"
+            placeholder="Senha"
+          />
+          <button class="button__2">Enviar</button>
         </div>
+      </article>
+    </form>
+    <hr class="linha" />
+
+    <div class="texto-principal">
+      <main class="texto-1">
+        <div>
+          <h2 class="descripition-1">Sobre nós</h2>
+          <p>
+            <a>A EBAC é a Escola Britânica de Artes Criativas & Tecnologia. </a>
+          </p>
+          <p>
+            <a
+              >uma instituição de ensino inovadora que oferece cursos online,
+              graduação, pós-graduação e especializações nas áreas de
+              criatividade, tecnologia, marketing, audiovisual e negócios.</a
+            >
+          </p>
+          <p>
+            <a>
+              Nas áreas de criatividade, tecnologia, marketing, audiovisual e
+              negócios.</a
+            >
+          </p>
+        </div>
+      </main>
+
+      <hr class="linha__2" />
+    </div>
+    <footer class="footer">
+      <p>&copy; 2026 Meu site. Todos os direitos reservados.</p>
     </footer>
-</body>
+
+    <script src="script.js"></script>
+  </body>
 </html>
