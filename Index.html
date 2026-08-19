@@ -1,95 +1,87 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agência Criativa Web- EBAC</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="conteudo-principal">
-      <header class="topo-cor">
-        <h1 class="Descricao">Agência Criativa Web</h1>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="layout.css">
+    
+</head>
+<body>
+    <div class="conteudo">
+    <header class="conteudo conteudo__cor">
+            <h1 class="conteudo conteudo__title">Agência Criativa Web</h1>
+             <h3 class="conteudo conteudo__answer">Bem vindo</h3>
 
-        <img class="img-1" src="unnamed.jpg" alt="logo" />
+             
+            <div class="img img">
 
-        <h3 class="Descricao-1">Bem vindo</h3>
-
-        <form>
-          <div class="input-1">
-            <label class="pesquisa_1" for="pesquisa">🔎</label>
-            <input
-              class="input-1"
-              type="number and text"
-              id="pesquisa"
-              name="pesquisa"
-              placeholder="pesquisa"
-            />
-          </div>
-        </form>
-
-        <button class="button-enviar1">Enviar</button>
-      </header>
+                 <img  class="img img__primario" src="unnamed.jpg" alt="logo" >
+           
+            </div>
+                
+    </header>
     </div>
-    <form>
-      <hr class="linha" />
-      <article class="background__1">
-        <div class="caixa-formulario">
-          <article class="h2-1">
-            <h2 class="lindex">EBAC</h2>
-          </article>
+    
+    <hr class="linha linha__primaria">
 
-          <label class="label-1" for="Email">Email:</label>
-          <input
-            class="input-2"
-            type="number, text and Email"
-            id="Email"
-            name="Email"
-            placeholder="Email"
-          />
-          <label class="label-2" for="password" Senha>Senha:</label>
-          <input
-            class="input-3"
-            type="number and text"
-            id="Senha"
-            name="Senha"
-            placeholder="Senha"
-          />
-          <button class="button__2">Enviar</button>
-        </div>
-      </article>
-    </form>
-    <hr class="linha" />
+    <div class="nav nav">
+        <nav class="nav nav__primario">
+            <ul>
+                <li><a class="nav nav__font" href="#">Inicio</a></li>
+                <li ><a class="nav nav__espac" href="#">Sobre</a></li>
+                <li ><a class="nav nav__font" href="#">Serviços</a> </li>
+                <li ><a class="nav nav__font" href="#">Contato</a> </li>
+            </ul> 
 
-    <div class="texto-principal">
-      <main class="texto-1">
+        </nav>
+    </div>
+
+            <hr class="linha linha__secundaria">
+
+                 </div class="article">   
+                   
+                    <article class="article article__back">
+                        <a class="article article__login">Login</a>
+
+                        <h2 class="article article__respo"><a href="#"> EBAC </a></h2>
+                            
+                        <label class="article__primario" for="Email">Email:</label>
+                        <input class="article__amostra--primario" type="number, text and Email" id="Email" name="Email" placeholder="Email">
+                        <label class="article__secundario" for="password" Senha>Senha:</label>
+                        <input class="article__amostra--secundario" type="number and text" id="Senha" name="Senha" placeholder="Senha">
+                        <button class="button button__azul">Enviar</button>
+
+                     </article>
+
+                </div>
+
+            <hr class="linha linha__terciaria">
+    
+        <div class="texto__texto--titular">
+            
+            <main class="texto__texto--reserva">
+                <div>
+                <h2 class="texto texto__nos">Sobre nós</h2>
+                <p><a>A EBAC é a Escola Britânica de Artes Criativas & Tecnologia. </a></p>
+                <p><a>uma instituição de ensino inovadora que oferece cursos online, graduação, pós-graduação e especializações nas áreas de criatividade, tecnologia, marketing, audiovisual e negócios.</a></p>
+                <p><a> Nas áreas de criatividade, tecnologia, marketing, audiovisual e negócios.</a></p>
+                </div>
+            </main>
+
+            <hr class="liha linha__quartenaria">
+
+        </div>     
+                <hr class="liha linha__Quinaria">
         <div>
-          <h2 class="descripition-1">Sobre nós</h2>
-          <p>
-            <a>A EBAC é a Escola Britânica de Artes Criativas & Tecnologia. </a>
-          </p>
-          <p>
-            <a
-              >uma instituição de ensino inovadora que oferece cursos online,
-              graduação, pós-graduação e especializações nas áreas de
-              criatividade, tecnologia, marketing, audiovisual e negócios.</a
-            >
-          </p>
-          <p>
-            <a>
-              Nas áreas de criatividade, tecnologia, marketing, audiovisual e
-              negócios.</a
-            >
-          </p>
+        
+                 <footer class="footer__final">
+                     <p>&copy; 2026 Meu site. Todos os direitos reservados.</p>
+                </footer>
         </div>
-      </main>
 
-      <hr class="linha__2" />
-    </div>
-    <footer class="footer">
-      <p>&copy; 2026 Meu site. Todos os direitos reservados.</p>
-    </footer>
+        <script src="script.js"></script>
 
-    <script src="script.js"></script>
-  </body>
+</body>
 </html>
