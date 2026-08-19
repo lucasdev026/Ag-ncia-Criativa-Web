@@ -7,7 +7,6 @@
   body {
     background: linear-gradient(450deg, rgb(85, 84, 84), rgb(77, 78, 79));
     font-style: italic;
-    font-display: none;
   }
   header {
     background: linear-gradient(350deg, rgb(251, 238, 116), rgb(78, 167, 205));
@@ -29,7 +28,7 @@
   
   ::placeholder {
     font-style: italic;
-    font-size: large;
+ 
   }
   .conteudo__title {
     position: relative;
