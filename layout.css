@@ -24,6 +24,16 @@
     padding-top: 3px;
     padding-bottom: 3px;
   }
+      .register--link{
+  position: relative;
+  margin-top: -50px;
+  margin-bottom: 10px;
+}
+  .lembrar--me{
+  position: relative;
+  margin-top : -70px; 
+  margin-left: 10px;
+  }
 
   ::placeholder {
     font-style: italic;
@@ -38,6 +48,11 @@
     right: 320px;
     top: -20px;
   }
+    .register--link{
+  position: relative;
+  margin-top: -80px;
+  margin-bottom: 10px;
+}
   .article__back {
     position: relative;
     top: -20px;
@@ -86,16 +101,20 @@
 
   .conteudo__title {
     position: relative;
-    right: 276px;
+    right: 290px;
     bottom: -40px;
   }
   .conteudo__answer {
     position: relative;
-    right: 107px;
+    right: 130px;
     bottom: 25px;
   }
   nav {
     padding-right: 81px;
+  }
+  .article{
+    position: relative;
+    right: 100px;
   }
   .article__login {
     color: white;
@@ -106,6 +125,7 @@
     border-radius: 10px;
     display: grid;
     justify-content: center;
+    margin-left: 107px;
   }
   .nav__espac {
     background-color: white;
@@ -117,6 +137,16 @@
     padding-bottom: 3px;
   }
 
+      .register--link{
+  position: relative;
+  margin-top: -50px;
+  margin-bottom: 10px;
+}
+  .lembrar--me{
+  position: relative;
+  margin-top : -70px; 
+  margin-left: 10px;
+  }
   article {
     position: relative;
     right: 90px;
@@ -186,6 +216,16 @@
     padding-bottom: 3px;
     color: rgb(34, 34, 34);
   }
+    .register--link{
+  position: relative;
+  margin-top: -50px;
+  margin-bottom: 10px;
+}
+  .lembrar--me{
+  position: relative;
+  margin-top : -70px; 
+  margin-left: 10px;
+  }
   .article__respo {
     opacity: 0%;
   }
@@ -197,7 +237,9 @@
   }
   header {
     background: linear-gradient(350deg, rgb(251, 187, 58), rgb(78, 167, 205));
-    margin-top: -20px;
+    padding-top: 20px;
+
+    margin-top: 0px;
   }
   .conteudo__title {
     position: relative;
@@ -234,6 +276,16 @@
     border-radius: 10px;
     display: grid;
     justify-content: center;
+  }
+  .register--link{
+  position: relative;
+  margin-top: -50px;
+  margin-bottom: 10px;
+}
+.lembrar--me{
+  position: absolute;
+  margin-top: 309px;
+  margin-left: -60px;
   }
 
   nav {
