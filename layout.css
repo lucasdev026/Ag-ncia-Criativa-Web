@@ -145,6 +145,7 @@
     margin-top: -45px;
   }
 
+
   .conteudo {
     display: grid;
     grid-template-columns: 2fr;
@@ -196,7 +197,7 @@
   }
   header {
     background: linear-gradient(350deg, rgb(251, 187, 58), rgb(78, 167, 205));
-    padding-bottom: 45px;
+    margin-top: -20px;
   }
   .conteudo__title {
     position: relative;
@@ -220,6 +221,9 @@
     padding-top: 3px;
     padding-bottom: 3px;
   }
+.img{
+    margin-top: -40px;
+  }
 
   .article__login {
     color: white;
@@ -231,6 +235,7 @@
     display: grid;
     justify-content: center;
   }
+
   nav {
     padding-right: 100px;
   }
@@ -242,8 +247,21 @@
   body {
     background-color: rgb(239, 208, 168);
   }
-  .nav {
+  header{
+    padding-left: 10px;
+    padding-top:20px;
+  }
+.conteudo__title{
+  margin-left: 620px;
+  }
+.conteudo__answer{
+  margin-left: 730px;
+    }
+  .img{
+    margin-top: 10px;
+  } 
 
+  .nav {
     width: 26.4%;
   }
   .button__azul {
@@ -260,11 +278,24 @@
     padding-bottom: 3px;
     color: black;
   }
+  article{
+    position: relative;
+    margin-left: -40px;
+  
+  }
+
+.lembrar--me{
+  position: absolute;
+  margin-top: 309px;
+  margin-left: 228px;
+  }
+
 
   .article__login {
     opacity: 0%;
   }
 }
+
 
 header {
   background: linear-gradient(350deg, rgb(251, 187, 58), rgb(78, 167, 205));
@@ -299,6 +330,11 @@ nav {
   padding-left: 0;
   padding-right: 10;
   padding-top: 0;
+}
+.register--link{
+  position: relative;
+  margin-top: -50px;
+  margin-bottom: 10px;
 }
 li {
   margin-top: 10px;
