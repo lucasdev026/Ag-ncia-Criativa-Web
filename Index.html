@@ -9,8 +9,9 @@
     
 </head>
 <body>
-    <div class="cabecalho">
-    <header class="cabecalho cabecalho__cor">
+
+    <header>
+        <div class="cabecalho">
             <h1 class="conteudo conteudo__title">Agência Criativa Web</h1>
              <h3 class="conteudo conteudo__answer">Bem vindo</h3>
 
@@ -22,17 +23,17 @@
     
     <hr class="linha linha__primaria">
 
-    <div class="nav">
         <nav class="nav nav__primario">
-            <ul>
-                <li><a class="nav nav__font" href="#">Inicio</a></li>
-                <li ><a class="nav nav__espac" href="#">Sobre</a></li>
-                <li ><a class="nav nav__font" href="#">Serviços</a> </li>
-                <li ><a class="nav nav__font" href="#">Contato</a> </li>
-            </ul> 
-
+            <div class="nav"></div>
+                <ul>
+                    <li class="nav nav__font" ><a class="nav__lista" href="#">Inicio</a></li>
+                    <li class="nav nav__espac"><a class="nav__lista" href="#">Sobre</a></li>
+                    <li a class="nav nav__font"><a class="nav__lista" href="#">Serviços</a> </li>
+                    <li class="nav nav__font"><a class="nav__lista" href="#">Contato</a> </li>
+                 </ul> 
+            </div>
         </nav>
-    </div>
+
 
             <hr class="linha linha__secundaria">
 
@@ -43,16 +44,18 @@
 
                         <h2 class="article article__respo"><a href="#"> EBAC </a></h2>
                             
-                        <label class="article__primario" for="Email">Email:</label>
+                        <label class="article__primario"for="Email">Email:</label>
                         <input class="article__amostra--primario" type="text" placeholder="Email">
                         <label class="article__secundario" for="password" Senha>Senha:</label>
                         <input class="article__amostra--secundario" type="password"  placeholder="Senha">
+
                     <div class="lembrar--me">
-                        <label for=""><input type="checkbox"> lembrar-me</lembrar-me></label>
+                        <label for="checkbox.class"><input type="checkbox">lembrar-me</lembrar-me></label>
                     </div>
+
                         <button class="button button__azul">Enviar</button>
                         <div class="register--link">
-                            <p><a href="#"> Não tem acesso a conta?</a> </p>
+                            <p><a href="">Não tem acesso a conta?</a></p>
                          </div>   
 
                      </article>

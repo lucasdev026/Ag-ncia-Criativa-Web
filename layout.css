@@ -24,15 +24,15 @@
     padding-top: 3px;
     padding-bottom: 3px;
   }
-      .register--link{
-  position: relative;
-  margin-top: -50px;
-  margin-bottom: 10px;
-}
-  .lembrar--me{
-  position: relative;
-  margin-top : -70px; 
-  margin-left: 10px;
+  .register--link {
+    position: relative;
+    margin-top: -50px;
+    margin-bottom: 10px;
+  }
+  .lembrar--me {
+    position: relative;
+    margin-top: -70px;
+    margin-left: 10px;
   }
 
   ::placeholder {
@@ -48,11 +48,11 @@
     right: 320px;
     top: -20px;
   }
-    .register--link{
-  position: relative;
-  margin-top: -80px;
-  margin-bottom: 10px;
-}
+  .register--link {
+    position: relative;
+    margin-top: -80px;
+    margin-bottom: 10px;
+  }
   .article__back {
     position: relative;
     top: -20px;
@@ -75,6 +75,12 @@
   .article__respo {
     opacity: 0%;
   }
+  .article__primario {
+    color: aliceblue;
+  }
+  .article__secundario {
+    color: aliceblue;
+  }
   .texto__nos {
     display: grid;
     flex-direction: column;
@@ -96,7 +102,7 @@
   }
   header {
     background: linear-gradient(350deg, rgb(251, 238, 116), rgb(78, 167, 205));
-    margin-top: -30px;
+    margin-top: -40px;
   }
 
   .conteudo__title {
@@ -112,7 +118,7 @@
   nav {
     padding-right: 81px;
   }
-  .article{
+  .article {
     position: relative;
     right: 100px;
   }
@@ -137,15 +143,15 @@
     padding-bottom: 3px;
   }
 
-      .register--link{
-  position: relative;
-  margin-top: -50px;
-  margin-bottom: 10px;
-}
-  .lembrar--me{
-  position: relative;
-  margin-top : -70px; 
-  margin-left: 10px;
+  .register--link {
+    position: relative;
+    margin-top: -50px;
+    margin-bottom: 10px;
+  }
+  .lembrar--me {
+    position: relative;
+    margin-top: -70px;
+    margin-left: 10px;
   }
   article {
     position: relative;
@@ -174,7 +180,6 @@
     background: linear-gradient(350deg, rgb(251, 238, 116), rgb(78, 167, 205));
     margin-top: -45px;
   }
-
 
   .conteudo {
     display: grid;
@@ -216,15 +221,15 @@
     padding-bottom: 3px;
     color: rgb(34, 34, 34);
   }
-    .register--link{
-  position: relative;
-  margin-top: -50px;
-  margin-bottom: 10px;
-}
-  .lembrar--me{
-  position: relative;
-  margin-top : -70px; 
-  margin-left: 10px;
+  .register--link {
+    position: relative;
+    margin-top: -50px;
+    margin-bottom: 10px;
+  }
+  .lembrar--me {
+    position: relative;
+    margin-top: -70px;
+    margin-left: 10px;
   }
   .article__respo {
     opacity: 0%;
@@ -263,7 +268,7 @@
     padding-top: 3px;
     padding-bottom: 3px;
   }
-.img{
+  .img {
     margin-top: -40px;
   }
 
@@ -277,15 +282,15 @@
     display: grid;
     justify-content: center;
   }
-  .register--link{
-  position: relative;
-  margin-top: -50px;
-  margin-bottom: 10px;
-}
-.lembrar--me{
-  position: absolute;
-  margin-top: 309px;
-  margin-left: -60px;
+  .register--link {
+    position: relative;
+    margin-top: -50px;
+    margin-bottom: 10px;
+  }
+  .lembrar--me {
+    position: absolute;
+    margin-top: 309px;
+    margin-left: -60px;
   }
 
   nav {
@@ -299,55 +304,63 @@
   body {
     background-color: rgb(239, 208, 168);
   }
-  header{
+  header {
     padding-left: 10px;
-    padding-top:20px;
+    padding-top: 20px;
   }
-.conteudo__title{
-  margin-left: 620px;
+  .conteudo__title {
+    margin-left: 777px;
   }
-.conteudo__answer{
-  margin-left: 730px;
-    }
-  .img{
+  .conteudo__answer {
+    margin-left: 890px;
+  }
+  .img {
     margin-top: 10px;
-  } 
+  }
 
   .nav {
-    width: 26.4%;
+    width: 9%;
   }
   .button__azul {
     margin-top: -10px;
   }
+.nav__lista{
+  color: white;
+  margin-left: 15px;
+}
 
-  .nav__espac {
+.nav__espac {
     background-color: rgb(239, 208, 168);
-    padding-right: 58px;
-    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: -7px;
+    padding-right: 110px;
+    padding-left: 27px;
     position: relative;
     right: 10px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    color: black;
+    width: 112%;
   }
-  article{
+  .nav__font {
+    margin-left: 10px;
+  }
+  article {
     position: relative;
     margin-left: -40px;
-  
   }
 
-.lembrar--me{
-  position: absolute;
-  margin-top: 309px;
-  margin-left: 228px;
+  .lembrar--me {
+    position: relative;
+    left: 30px;
+    bottom: 65px;
   }
-
+  .article {
+    background: transparent;
+  }
 
   .article__login {
     opacity: 0%;
   }
 }
-
 
 header {
   background: linear-gradient(350deg, rgb(251, 187, 58), rgb(78, 167, 205));
@@ -376,14 +389,17 @@ nav {
 .article {
   margin-top: 40px;
   margin-bottom: 40px;
-  background: rgb(120, 119, 119);
+  background: transparent;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px black rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   padding-bottom: -50px;
   padding-left: 0;
   padding-right: 10;
   padding-top: 0;
+  border: 2px solid rgba(255, 255, 255, 0.2);
 }
-.register--link{
+.register--link {
   position: relative;
   margin-top: -50px;
   margin-bottom: 10px;
